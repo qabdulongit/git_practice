@@ -1,2 +1,2 @@
-# git_practice
+# Git Practice
 First Repository
