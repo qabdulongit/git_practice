@@ -1,2 +1,0 @@
-This is 2nd_file created on GitHub "feature-demo" branch.
-Adding another line yet again.
