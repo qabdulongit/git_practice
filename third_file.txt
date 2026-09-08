@@ -1,2 +1,0 @@
-This is the first file created under feature-demo locally.
-Second line in this from local machine.
