@@ -1,0 +1,11 @@
+company_name: Demo Corporation
+
+common_packages:
+  - git
+  - curl
+  - vim
+
+admin_users:
+  - demoadmin
+
+ssh_port: 22
