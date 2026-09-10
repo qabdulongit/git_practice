@@ -1,0 +1,10 @@
+---
+- name: Linux Baseline Configuration
+  hosts: all
+  become: true
+
+  roles:
+    - common
+    - users
+
+    
