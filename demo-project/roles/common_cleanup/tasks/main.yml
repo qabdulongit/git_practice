@@ -1,0 +1,11 @@
+---
+- name: Remove demo packages
+  ansible.builtin.package:
+    name: "{{ common_packages }}"
+    state: absent
+
+- name: Remove MOTD
+  ansible.builtin.copy:
+    content: ""
+    dest: /etc/motd
+...

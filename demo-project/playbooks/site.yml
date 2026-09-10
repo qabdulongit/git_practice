@@ -4,7 +4,15 @@
   become: true
 
   roles:
-    - common
-    - users
+    - role: common_deploy
+      tags:
+        - common_deploy
 
-    
+    - role: users_deploy
+      tags:
+        - users_deploy
+
+    # - role: report
+    #   tags:
+    #     - report    
+...

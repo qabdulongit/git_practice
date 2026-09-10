@@ -1,6 +1,8 @@
 ---
-- name: Create admin users
+- name: Remove admin users
   ansible.builtin.user:
     name: "{{ item }}"
-    state: present
+    state: absent
+    remove: true
   loop: "{{ admin_users }}"
+...
