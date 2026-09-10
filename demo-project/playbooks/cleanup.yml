@@ -1,0 +1,10 @@
+---
+- name: Rollback Demo Environment
+  hosts: all
+  become: true
+
+  roles:
+    - common_cleanup
+    - users_cleanup
+    # - report_cleanup
+...

@@ -1,9 +1,9 @@
 company_name: Demo Corporation
 
 common_packages:
-  - git
-  - curl
-  - vim
+  - tree
+  - jq
+  - htop
 
 admin_users:
   - demoadmin
