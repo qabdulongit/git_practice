@@ -1,0 +1,18 @@
+---
+- name: Linux Baseline Configuration
+  hosts: all
+  become: true
+
+  roles:
+    - role: common_deploy
+      tags:
+        - common_deploy
+
+    - role: users_deploy
+      tags:
+        - users_deploy
+
+    # - role: report
+    #   tags:
+    #     - report    
+...

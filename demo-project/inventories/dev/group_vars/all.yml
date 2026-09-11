@@ -1,0 +1,11 @@
+company_name: Demo Corporation
+
+common_packages:
+  - tree
+  - jq
+  - htop
+
+admin_users:
+  - demoadmin
+
+ssh_port: 22

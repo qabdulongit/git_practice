@@ -1,0 +1,8 @@
+---
+- name: Remove admin users
+  ansible.builtin.user:
+    name: "{{ item }}"
+    state: absent
+    remove: true
+  loop: "{{ admin_users }}"
+...

@@ -1,0 +1,10 @@
+# Local Environment Backups
+backup.sh
+restore_env.sh
+requirements.txt
+bashrc_snippet.txt
+vscode_extensions.txt
+.venv/
+__pycache__/
+*.retry
+.vscode/
