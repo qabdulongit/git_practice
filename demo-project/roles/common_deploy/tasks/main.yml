@@ -6,7 +6,7 @@
 
 - name: Deploy MOTD
   ansible.builtin.template:
+    mode: "0644"
     src: motd.j2
     dest: /etc/motd
 ...
-
