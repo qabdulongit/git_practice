@@ -7,5 +7,3 @@ common_packages:
 
 admin_users:
   - demoadmin
-
-ssh_port: 22
