@@ -1,0 +1,9 @@
+company_name: Demo Corporation
+
+common_packages:
+  - tree
+  - jq
+  - htop
+
+admin_users:
+  - demoadmin
