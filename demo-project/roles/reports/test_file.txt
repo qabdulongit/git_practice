@@ -4,6 +4,7 @@
 # ansible-playbook playbooks/site.yml --check
 # ansible-playbook playbooks/site.yml --tag common_deploy
 # ansible-playbook playbooks/site.yml --tag users_deploy
+# ansible-playbook playbooks/cleanup.yml
 # id demoadmin
 # cat /etc/motd
 # tree --version
