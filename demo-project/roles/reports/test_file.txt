@@ -1,5 +1,9 @@
 # ansible-playbook playbooks/site.yml | tee logs/site_run.log
 # ansible-playbook playbooks/cleanup.yml | tee logs/cleanup_run.log
+# ansible-playbook playbooks/site.yml --syntax-check
+# ansible-playbook playbooks/site.yml --check
+# ansible-playbook playbooks/site.yml --tag common_deploy
+# ansible-playbook playbooks/site.yml --tag user_deploy
 # id demoadmin
 # cat /etc/motd
 # tree --version
