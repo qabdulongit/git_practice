@@ -1,0 +1,5 @@
+# ansible-playbook playbooks/site.yml | tee logs/site_run.log
+# ansible-playbook playbooks/cleanup.yml | tee logs/cleanup_run.log
+# id demoadmin
+# cat /etc/motd
+# tree --version
