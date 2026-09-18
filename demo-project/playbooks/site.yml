@@ -1,6 +1,6 @@
 ---
 - name: Linux Baseline Configuration
-  hosts: all
+  hosts: linux
   become: true
 
   roles:
@@ -12,6 +12,14 @@
       tags:
         - users_deploy
 
+- name: Windows Baseline
+  hosts: windows
+
+  roles:
+    - role: windows_baseline
+      tags: 
+        - windows
+        
     # - role: report
     #   tags:
     #     - report    

@@ -1,0 +1,13 @@
+---
+
+- name: Create demo directory
+  ansible.windows.win_file:
+    path: C:\AnsibleDemo
+    state: directory
+
+- name: Create text file
+  ansible.windows.win_copy:
+    content: |
+      Managed by Ansible
+    dest: C:\AnsibleDemo\readme.txt
+...
