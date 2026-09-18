@@ -1,0 +1,23 @@
+---
+
+- name: Ensure EPEL package exists
+  ansible.builtin.package:
+    name: vim
+    state: present
+
+- name: Create application directory
+  ansible.builtin.file:
+    path: /opt/ansible-demo
+    state: directory
+    # owner: root
+    # group: root
+    mode: '0755'
+
+- name: Create welcome file
+  ansible.builtin.copy:
+    content: |
+      Managed by Ansible
+      Host: {{ inventory_hostname }}
+    dest: /opt/ansible-demo/readme.txt
+    mode: '0644'
+...

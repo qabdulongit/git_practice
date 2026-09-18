@@ -11,6 +11,10 @@
     - role: users_deploy
       tags:
         - users_deploy
+        
+    - role: rhel_baseline
+      tags:
+        - rhel_baseline
 
 - name: Windows Baseline
   hosts: windows
@@ -19,7 +23,7 @@
     - role: windows_baseline
       tags: 
         - windows
-        
+
     # - role: report
     #   tags:
     #     - report    
