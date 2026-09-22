@@ -11,7 +11,15 @@
     - role: users_deploy
       tags:
         - users_deploy
+  
+- name: Windows Baseline
+  hosts: windows
 
+  roles:
+    - role: windows_baseline
+      tags: 
+        - windows
+        
     # - role: report
     #   tags:
     #     - report    

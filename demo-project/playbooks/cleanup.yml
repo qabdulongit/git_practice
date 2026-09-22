@@ -1,10 +1,18 @@
 ---
+
 - name: Rollback Demo Environment
-  hosts: all
+  hosts: linux
   become: true
 
   roles:
     - common_cleanup
     - users_cleanup
     # - report_cleanup
+
+- name: Cleanup Windows
+  hosts: windows
+
+  roles:
+    - windows_cleanup
 ...
+
