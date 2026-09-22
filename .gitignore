@@ -9,3 +9,5 @@ vscode_extensions.txt
 __pycache__/
 *.retry
 .vscode/
+inventories/dev/group_vars/linux.yml
+inventories/dev/group_vars/windows.yml
